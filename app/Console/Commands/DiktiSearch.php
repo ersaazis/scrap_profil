@@ -18,7 +18,7 @@ class DiktiSearch extends Command
      *
      * @var string
      */
-    protected $description = 'Cari Link Profil Dosen';
+    protected $description = 'Cari Profil Dosen';
 
     /**
      * Create a new command instance.
