@@ -57,6 +57,7 @@ class DiktiSearch extends Command
             $response = $client->request('GET', $url);
             $body = $response->getBody();
             $content = json_decode($body->getContents(), true);
+            unset($content['dataumum']['foto']);
             $hasil['data']=$content;
         }
         else{
